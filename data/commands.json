@@ -1,0 +1,8 @@
+{
+    "help": "Display a list of available commands",
+    "echo": "Print arguments to the terminal",
+    "ls": "List files and directories in the current directory",
+    "pwd": "Print the current working directory",
+    "clear": "Clear the terminal screen",
+    "title": "Set the terminal title"
+}

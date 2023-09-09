@@ -1,0 +1,42 @@
+/* Apply CSS styling for the terminal */
+body {
+    background-color: black;
+    font-family: monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: limegreen;
+    overflow: hidden; /* Hide scrollbars for the entire page */
+}
+
+#terminal {
+    background-color: black;
+    border: 5px solid limegreen; /* Green border with margin */
+    padding: 10px;
+    font-family: monospace;
+    width: 100%;
+    height: 100%; /* Set terminal height to 100% */
+    overflow-y: auto; /* Enable vertical scrolling within the terminal */
+}
+
+.user-prompt {
+    color: limegreen;
+}
+
+.input-line {
+    display: flex;
+    align-items: left; /* Align text to the left within the box */
+    margin-bottom: 5px; /* Add margin to the input lines */
+}
+
+.invisible {
+    background-color: black;
+    color: limegreen;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    width: 100%;
+    font-family: monospace;
+}
